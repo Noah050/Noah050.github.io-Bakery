@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #ffaeb5;
+    position: sticky;
+    top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav-box {
+    width: 300px;
+    height: 80px;
+    background-color: #94f1ea;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.logo {
+    background-color: #ffaeb5;
+}
